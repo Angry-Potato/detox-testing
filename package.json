@@ -13,7 +13,9 @@
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "test": "jest"
+    "test": "jest",
+    "test:e2e:build:ci": "detox build -c ios.sim.debug",
+    "test:e2e:ci": "detox test -c ios.sim.debug"
   },
   "jest": {
     "preset": "react-native"
