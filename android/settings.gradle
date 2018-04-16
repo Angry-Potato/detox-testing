@@ -1,0 +1,3 @@
+rootProject.name = 'DetoxTesting'
+
+include ':app'
